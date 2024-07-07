@@ -8,7 +8,7 @@ elementi=Counter(lista)
 
 rezultat = []
 for broj, brojanje in elementi.items():
-    if brojanje >= 1:
+    if brojanje >= 3:
         rezultat.append(broj)
 
 print(rezultat)
