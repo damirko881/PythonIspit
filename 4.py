@@ -12,7 +12,9 @@ for num in range(50):
     broj=randint(1,1000)
     lista.append(broj)
 
-frekvencijaZnamenki={i: 0 for i in range(10)}
+frekvencijaZnamenki = {}
+for i in range(10):
+    frekvencijaZnamenki[i] = 0
 
 for broj in lista:
     for zanmenka in str(broj):
